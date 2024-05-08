@@ -30,7 +30,7 @@ export const sendMessage = async (req, res) => {
     // SOCKET.IO FUNCTIONALITY
 
     // this will run in parallel
-    await promise.all([conversation.save(), newMessage.save()]);
+    await Promise.all([conversation.save(), newMessage.save()]);
 
     res.status(201).json(newMessage);
   } catch (error) {
@@ -46,9 +46,15 @@ export const getMessages = async (req, res) => {
 
     const conversation = await Conversation.findOne({
       participants: { $all: [senderId, userToChatId] },
-    }).populate("messages");
+    }).populate("messages"); //NOT REFERENCE BUT ACTUAL MESSAGES
 
-    res.status(200).json(conversation.messages);
+    
+    if (!conversation) {
+      return res.status(200).json([]);
+    }
+    
+    const messages = conversation.messages;
+    res.status(200).json(messages);
     
   } catch (error) {
     console.log("Error in getMessage controller", error.message);
