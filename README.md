@@ -1,2 +1,2 @@
-## chat-app
+# chat-app
 user friendly chat app
