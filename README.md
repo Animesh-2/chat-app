@@ -132,22 +132,11 @@ Top categories section.
 
 ## Snap Shots 📷:
 
+**Signup Page**
+![alt text]()
 
 
 
 # Conclusion: 
-Messenger is giving a real time conversation experience with online indicator who is online and is created to satisfy user experience
-
-
-
-
-
-
-
-
-
-
-
-
-
+Messenger is giving a real time conversation experience with online indicator who is online and is created to satisfy user experience.
 
