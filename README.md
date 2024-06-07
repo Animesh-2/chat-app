@@ -133,8 +133,16 @@ Top categories section.
 ## Snap Shots 📷:
 
 **Signup Page**
-![alt text]()
+![alt text](https://github.com/Animesh-2/chat-app/blob/main/frontend/public/signup.png)
 
+**Login Page**
+![alt text](https://github.com/Animesh-2/chat-app/blob/main/frontend/public/login.png)
+
+**Message Page**
+![alt text](https://github.com/Animesh-2/chat-app/blob/main/frontend/public/message.png)
+
+**Conversation Page**
+![alt text](https://github.com/Animesh-2/chat-app/blob/main/frontend/public/conversation.png)
 
 
 # Conclusion: 
